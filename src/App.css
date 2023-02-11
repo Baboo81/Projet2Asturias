@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+/*Media queries*/
+@media only screen and (max-width : 480px)
+{
+    /*Style mobile, on travail sur les périphériques dt la largeur est inférieure à 480px*/
+
+    p
+    {
+        width: 70%;
+        height: 400px;
+        padding: 50px;
+        color: aliceblue;
+        background: black;
+    }
+
+    div.swapImg
+    {
+        background: url("petite image");/*Ce système de fonctionnement limite les performances*/
+    }
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    /*Style pour les tablettes*/
+    p
+    {
+        width: 80%;
+        height: 400px;
+        padding: 50px;
+        color: aliceblue;
+        background: black;
+    }
+
+    div.swapImg
+    {
+        background: url("moyenne image");/*Ce système de fonctionnement limite les performances*/
+    }
+
+}
+
+@media only screen and (min-width : 769px)
+{
+    /*Style pour les ordinateurs*/
+    p
+    {
+        width: 90%;
+        height: 300px;
+        padding: 50px;
+        color: aliceblue;
+        background: black;
+    }
+
+    div.swapImg
+    {
+        background: url("grande image");/*Ce système de fonctionnement limite les performances*/
+    }
+
+}
+
+/*Nous pouvons utilser les @media only screen and (max-width : 30em) pour améliorer le responsonsive*/
+    
+
