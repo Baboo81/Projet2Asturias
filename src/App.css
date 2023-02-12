@@ -38,11 +38,12 @@
 }
 
 /*Media queries*/
+/*
 @media only screen and (max-width : 480px)
 {
     /*Style mobile, on travail sur les périphériques dt la largeur est inférieure à 480px*/
 
-    p
+   /* p
     {
         width: 70%;
         height: 400px;
@@ -54,13 +55,13 @@
     div.swapImg
     {
         background: url("petite image");/*Ce système de fonctionnement limite les performances*/
-    }
+   /* }
 }
 
 @media only screen and (min-width : 481px) and (max-width : 768px)
 {
     /*Style pour les tablettes*/
-    p
+   /* p
     {
         width: 80%;
         height: 400px;
@@ -72,14 +73,14 @@
     div.swapImg
     {
         background: url("moyenne image");/*Ce système de fonctionnement limite les performances*/
-    }
+   /* }
 
 }
 
 @media only screen and (min-width : 769px)
 {
     /*Style pour les ordinateurs*/
-    p
+   /* p
     {
         width: 90%;
         height: 300px;
@@ -91,7 +92,7 @@
     div.swapImg
     {
         background: url("grande image");/*Ce système de fonctionnement limite les performances*/
-    }
+   /* }
 
 }
 

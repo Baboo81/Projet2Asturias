@@ -5,19 +5,16 @@ const NavBar = () => (
     <nav>
         <ul>
             <li>
-                <Link to=''>Demo React-Router</Link>
+                <Link  to='./home'>Home Page</Link>
             </li>
             <li>
-                <Link to='./home'>Home Page</Link>
+                <Link  to='./visit'>Á visiter</Link>
             </li>
             <li>
-                <Link to='./visit'>Á visiter</Link>
+                <Link  to='./history'>Histoire</Link>
             </li>
             <li>
-                <Link to='./history'>Histoire</Link>
-            </li>
-            <li>
-                <Link to='./contact'>Contact</Link>
+                <Link  to='./contact'>Contact</Link>
             </li>
         </ul>
     </nav>
