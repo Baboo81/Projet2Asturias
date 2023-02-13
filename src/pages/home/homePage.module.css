@@ -1,6 +1,7 @@
 :root
 {
     --white: #f9f7f0;
+    --saumon: #f76566;
     --turquoise: #18b7be;
     --bleu: #178ca4;
     --bleuSombre: #072a40;
@@ -28,5 +29,5 @@ div
 
 h1
 {
-    color: var(--white);
+    color: var(--bleu);
 }
