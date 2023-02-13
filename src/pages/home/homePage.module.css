@@ -1,0 +1,31 @@
+:root
+{
+    --white: #f9f7f0;
+    --turquoise: #18b7be;
+    --bleu: #178ca4;
+    --bleuSombre: #072a40;
+}
+
+body
+{
+    background: url(../../img/Background.jpg);
+}
+
+div
+{
+    background-image: url(../../img/mainImg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+    height: 800px;
+    width: 900px;
+    margin-left: 5%;
+    
+}
+
+
+
+h1
+{
+    color: var(--white);
+}

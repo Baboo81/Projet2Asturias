@@ -1,11 +1,18 @@
+import style from './homePage.module.css';
+
 const HomePage = () => {
+    
 
     return (
-        <div className="main-div">
-            <h1>Bienvenidos en Asturias</h1>
-            <img src="./img/mainImg.JPG" alt="Photo cascade" />
-        </div>
-    )
+        <>
+            <div>
+                <h1>Bienvenidos en Asturias</h1>
+            </div>
+    
+        </>
+    )        
 }
+
+
 
 export default HomePage;
