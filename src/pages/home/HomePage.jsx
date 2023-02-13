@@ -5,9 +5,15 @@ const HomePage = () => {
 
     return (
         <>
-            <div>
-                <h1>Bienvenidos en Asturias</h1>
-            </div>
+            <header>
+
+            </header>
+            <main>
+                <div>
+                    <h1>Bienvenidos en Asturias</h1>
+                </div>
+            </main>
+            
     
         </>
     )        
