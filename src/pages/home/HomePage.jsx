@@ -9,9 +9,7 @@ const HomePage = () => {
 
             </header>
             <main>
-                
-                    <h1>Bienvenidos en Asturias</h1>
-                
+                <h1>Bienvenidos en Asturias</h1>
             </main>
             
     

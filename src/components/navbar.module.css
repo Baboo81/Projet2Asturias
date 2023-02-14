@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&display=swap');
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
   }
   
@@ -14,8 +14,8 @@ ul {
   li a {
     display: block;
     color: var(--saumon);
-    font-weight: bolder;
     font-size: 1.5em;
+    font-family: 'Anton', sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

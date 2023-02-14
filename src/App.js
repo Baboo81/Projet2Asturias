@@ -12,16 +12,16 @@ import Avisiter from './pages/visit/Avisiter';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Routes>
-        <Route path='home' element={<HomePage />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='history' element={<Histoire />} />
-        <Route path='visit' element={<Avisiter />} />
-        <Route path='errors' element={<NotFoundPage />} />
-      </Routes>
-    </div>
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path='home' element={<HomePage />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='history' element={<Histoire />} />
+          <Route path='visit' element={<Avisiter />} />
+          <Route path='errors' element={<NotFoundPage />} />
+        </Routes>
+      </div>
   );
 }
 
