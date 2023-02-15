@@ -6,7 +6,7 @@ const HomePage = () => {
 
     return (
         <>
-            <img src='../../img/logo2.svg' alt='logo' />
+            {/** <img className='logo' src='../../img/logo2.svg' alt='picto' /> */} 
             <h1>Bienvenidos en Asturias</h1>
         </>
     )        

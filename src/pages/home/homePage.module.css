@@ -11,17 +11,18 @@
 
 body
 {
-    background: url(../../img/Background.jpg);
+    background: url(/public/img/Background.jpg);
 }
 
 main 
 {
-    background-image: url(../../img/mainImg.JPG);
+    background-image: url(/public/img/mainImg.JPG);
     border-radius: 2%;
-    height: 900px;
+    height: 850px;
     width: 90%;
     margin-left: 5%;
     margin-top: 6%;
+    margin-bottom: 6%;
     
 }
 
