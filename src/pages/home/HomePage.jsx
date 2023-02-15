@@ -6,14 +6,8 @@ const HomePage = () => {
 
     return (
         <>
-            
-            <main>
-                <NavBar />
-                <img src='../../img/logo2.svg' alt='logo' />
-                <h1>Bienvenidos en Asturias</h1>
-            </main>
-            
-    
+            <img src='../../img/logo2.svg' alt='logo' />
+            <h1>Bienvenidos en Asturias</h1>
         </>
     )        
 }
