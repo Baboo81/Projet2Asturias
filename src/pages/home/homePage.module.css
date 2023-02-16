@@ -33,13 +33,15 @@ h1
     font-family: 'Dancing Script', cursive;
     font-size: 6em;
     color: var(--turquoise);
-    padding: 20%;
+    padding: 15%;
 }
 
 img
 {
     float: left;
+    margin-left: -20%;
+    margin-top: -15%;
     padding-right: 0%;
-    height: 30vh;
-    width: 30vw;
+    height: 45vh;
+    width: 45vw;
 }
