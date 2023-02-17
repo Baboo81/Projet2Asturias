@@ -6,7 +6,7 @@ const Avisiter = () => {
     const images = [
         {
             id : 1,
-            src : "./img/slider/gijon1.JPG",
+            src : "./img/slider/gijon.JPG",
             alt : "Gijon"
         },
         {
