@@ -9,14 +9,6 @@
     --bleuSombre: #072a40;
 }
 
-h2
-{
-    font-family: 'Dancing Script', cursive;
-    font-size: 6em;
-    color: var(--turquoise);
-    padding: 15%;
-}
-
 .logo
 {
     float: left;
@@ -26,3 +18,30 @@ h2
     height: 45vh;
     width: 45vw;
 }
+
+h2
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6em;
+    color: var(--turquoise);
+    padding: 0%;
+}
+
+section
+{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 0%;
+    background-color: var(--saumon);
+    opacity: 50%;
+}
+
+p
+{
+    font-family: 'Dancing Script', cursive;
+    padding: 1%;
+    color: var(--white);
+    font-size: 1.8em;
+}
+
