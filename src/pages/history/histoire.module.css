@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+:root
+{
+    --white: #f9f7f0;
+    --saumon: #f76566;
+    --turquoise: #18b7be;
+    --bleu: #178ca4;
+    --bleuSombre: #072a40;
+}
+
+h2
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6em;
+    color: var(--turquoise);
+    padding: 15%;
+}
+
+.logo
+{
+    float: left;
+    margin-left: -20%;
+    margin-top: -15%;
+    padding-right: 0%;
+    height: 45vh;
+    width: 45vw;
+}
