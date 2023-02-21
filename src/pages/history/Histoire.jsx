@@ -9,11 +9,12 @@ const Histoire = () => {
 
     return (
         <div>
+            <img className='logo' src='../../img/logo2.svg' alt='picto' />
             <h2>Un peu d'histoire</h2>
             <Card 
             style ={{
                 display : "flex",
-                backgroundColor : "pink",
+                backgroundColor : "#f76566",
                 width : "450px",
                 height : "300px",
                 cursor : "pointer"
