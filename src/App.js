@@ -26,27 +26,6 @@ function App() {
             <Route path='/visit' element={<Avisiter />} />
             <Route path='/errors' element={<NotFoundPage />} />
           </Routes>
-          <Card 
-            style ={{
-                display : "flex",
-                backgroundColor : "pink",
-                width : "450px",
-                height : "300px",
-                cursor : "pointer"
-            }}
-            onClick= {() => console.log("Card clicked")}
-            />
-          <Card
-            style={{
-              display : "flex",
-              backgroundColor: "red",
-              width: "450px",
-              height: "300px",
-              cursor: "pointer"
-            }}
-            onClick={() => console.log("Card clicked")}
-          />
-          
         </main>
       </div>
   );

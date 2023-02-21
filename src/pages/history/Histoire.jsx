@@ -10,7 +10,16 @@ const Histoire = () => {
     return (
         <div>
             <h2>Un peu d'histoire</h2>
-            <Card />
+            <Card 
+            style ={{
+                display : "flex",
+                backgroundColor : "pink",
+                width : "450px",
+                height : "300px",
+                cursor : "pointer"
+            }}
+            onClick= {() => console.log("Card clicked")}
+            />
            
         </div>
     )
