@@ -8,6 +8,9 @@ import Histoire from './pages/history/Histoire';
 import HomePage from './pages/home/HomePage';
 import Avisiter from './pages/visit/Avisiter';
 import NavBar from './components/NavBar'
+import "@sl-codeblaster/react-3d-animated-card";
+import AnimatedCard from "@sl-codeblaster/react-3d-animated-card";
+import Card from "react-animated-3d-card";
 
 
 function App() {
@@ -23,7 +26,27 @@ function App() {
             <Route path='/visit' element={<Avisiter />} />
             <Route path='/errors' element={<NotFoundPage />} />
           </Routes>
-       
+          <Card 
+            style ={{
+                display : "flex",
+                backgroundColor : "pink",
+                width : "450px",
+                height : "300px",
+                cursor : "pointer"
+            }}
+            onClick= {() => console.log("Card clicked")}
+            />
+          <Card
+            style={{
+              display : "flex",
+              backgroundColor: "red",
+              width: "450px",
+              height: "300px",
+              cursor: "pointer"
+            }}
+            onClick={() => console.log("Card clicked")}
+          />
+          
         </main>
       </div>
   );
