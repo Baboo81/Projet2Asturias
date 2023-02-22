@@ -22,7 +22,7 @@ const AnimateTitle = () => {
                     fontWeight : "bold"
                 }}
             >
-                Hello
+                Hello, les grenouilles !
             </div>
         );
     };
