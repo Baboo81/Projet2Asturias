@@ -28,6 +28,7 @@ const Histoire = () => {
                 backgroundColor : "#f76566",
                 width : "500px",
                 height : "600px",
+                marginLeft : "5%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
