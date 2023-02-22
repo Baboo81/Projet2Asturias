@@ -1,5 +1,5 @@
 import ImageSlider from "../../components/ImageSlider";
-import NavBar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 import style from './avisiter.module.css';
 
 const Avisiter = () => {

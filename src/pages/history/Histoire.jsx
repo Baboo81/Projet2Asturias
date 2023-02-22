@@ -1,5 +1,5 @@
 import style from './histoire.module.css';
-import NavBar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 import { Component } from 'react';
 import "@sl-codeblaster/react-3d-animated-card";
 import AnimatedCard from "@sl-codeblaster/react-3d-animated-card";

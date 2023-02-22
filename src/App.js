@@ -7,7 +7,7 @@ import NotFoundPage from './pages/errors/NotFoundPage';
 import Histoire from './pages/history/Histoire';
 import HomePage from './pages/home/HomePage';
 import Avisiter from './pages/visit/Avisiter';
-import NavBar from './components/NavBar'
+import Navbar from './components/Navbar'
 import "@sl-codeblaster/react-3d-animated-card";
 import AnimatedCard from "@sl-codeblaster/react-3d-animated-card";
 import Card from "react-animated-3d-card";
@@ -18,7 +18,7 @@ function App() {
   return (
       <div className="App">
         <main>
-          <NavBar />
+          <Navbar />
           <Routes>
             <Route path='/home' element={<HomePage />} />
             <Route path='/contact' element={<Contact />} />
