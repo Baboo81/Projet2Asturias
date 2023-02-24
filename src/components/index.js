@@ -9,7 +9,7 @@ const RevealAnimations = () => {
       style={{ display: "flex", justifyContent: "space-evenly" }}
     >
       <AnimateText />
-      <AnimateImage />
+      <AnimateLogo />
     </div>
   );
 };
