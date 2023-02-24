@@ -1,5 +1,6 @@
 import style from './homePage.module.css';
 import Navbar from "../../components/Navbar"
+import Reveal from "../../components/AnimateTitle";
 
 const HomePage = () => {
     
@@ -8,6 +9,7 @@ const HomePage = () => {
         <>
             <img className='logo' src='../../img/logo2.svg' alt='picto' />
             <h1>Bienvenidos en Asturias</h1>
+            <Reveal />
         </>
             
         

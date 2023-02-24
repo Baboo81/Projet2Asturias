@@ -1,34 +1,33 @@
 import React from "react";
-import { animation } from "react-reveal/globals";
 import Zoom from "react-reveal/Zoom";
 import Bounce from "react-reveal/Bounce";
 import Roll from "react-reveal/Roll";
 import Flip from "react-reveal/Flip";
 
-const AnimateTitle = () => {
-    state = { animation : "zoom" };
+class AnimateText extends React.Component {
+  state = { animation: "zoom" };
 
-    handleAnimation = animation => {
-        this.setState ({ animation });
-    };
+  handleAnimation = animation => {
+    this.setState({ animation });
+  };
 
-    getText = () => {
-        return(
-            <div
-                style = {{
-                    marginTop : "150px",
-                    fontSize : "25px",
-                    color : "teal",
-                    fontWeight : "bold"
-                }}
-            >
-                Hello, les grenouilles !
-            </div>
-        );
-    };
+  getText = () => {
+    return (
+      <div
+        style={{
+          marginTop: "150px",
+          fontSize: "25px",
+          color: "teal",
+          fontWeight: "bold"
+        }}
+      >
+        Hello
+      </div>
+    );
+  };
 
-    render() {
-        let comp;
+  render() {
+    let comp;
     switch (this.state.animation) {
       case "flip":
         comp = <Flip>{this.getText()}</Flip>;
@@ -44,12 +43,28 @@ const AnimateTitle = () => {
         break;
       default:
         comp = <Zoom>{this.getText()}</Zoom>;
-
     }
 
     return (
+      <div>
+        <div
+          style={{
+            width: "300px",
+            display: "flex",
+            justifyContent: "space-around",
+            marginTop: "15px"
+          }}
+        >
+          <button onClick={() => this.handleAnimation("flip")}>Flip</button>
+          <button onClick={() => this.handleAnimation("zoom")}>Zoom</button>
+          <button onClick={() => this.handleAnimation("bounce")}>Bounce</button>
+          <button onClick={() => this.handleAnimation("roll")}>Roll</button>
+        </div>
 
-    )
+        {comp}
+      </div>
+    );
+  }
 }
 
-export default AnimateTitle;
+export default AnimateText;
