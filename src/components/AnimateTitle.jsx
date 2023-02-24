@@ -17,11 +17,11 @@ class AnimateText extends React.Component {
         style={{
           marginTop: "150px",
           fontSize: "25px",
-          color: "teal",
+          color: "#178ca4",
           fontWeight: "bold"
         }}
       >
-        Hello
+       Bienvenidos en Asturias
       </div>
     );
   };
@@ -55,10 +55,10 @@ class AnimateText extends React.Component {
             marginTop: "15px"
           }}
         >
-          <button onClick={() => this.handleAnimation("flip")}>Flip</button>
-          <button onClick={() => this.handleAnimation("zoom")}>Zoom</button>
-          <button onClick={() => this.handleAnimation("bounce")}>Bounce</button>
-          <button onClick={() => this.handleAnimation("roll")}>Roll</button>
+          window.onLoad ={() => this.handleAnimation("flip")}
+         {/**<button onClick={() => this.handleAnimation("zoom")}>Zoom</button> */} 
+         {/**<button onClick={() => this.handleAnimation("bounce")}>Bounce</button>*/} 
+          {/**<button onClick={() => this.handleAnimation("roll")}>Roll</button> */}
         </div>
 
         {comp}
