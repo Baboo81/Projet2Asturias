@@ -1,6 +1,6 @@
 import React from "react";
-import AnimateText from "./AnimateText";
-import AnimateImage from "./AnimateImage";
+import AnimateTitle from "./AnimateTitle";
+import AnimateLogo from "./AnimateLogo";
 
 const RevealAnimations = () => {
   return (
@@ -8,7 +8,7 @@ const RevealAnimations = () => {
       className="container"
       style={{ display: "flex", justifyContent: "space-evenly" }}
     >
-      <AnimateText />
+      <AnimateTitle />
       <AnimateLogo />
     </div>
   );

@@ -5,7 +5,7 @@ import Roll from "react-reveal/Roll";
 import Flip from "react-reveal/Flip";
 import flower from "../../public/img/logo3.svg";
 
-class AnimateImage extends React.Component {
+class AnimateLogo extends React.Component {
   state = { animation: "zoom" };
 
   handleDirection = animation => {

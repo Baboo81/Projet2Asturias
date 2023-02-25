@@ -19,13 +19,18 @@
     width: 45vw;
 }
 
+p
+{
+    color: var(--white);
+}
+
 h2
 {
     font-family: 'Dancing Script', cursive;
-    font-size: 6em;
+    font-size: 4em;
     color: var(--turquoise);
     padding: 0%;
-    margin-top: -50%;
+    margin-top: -55%;
 }
 
 

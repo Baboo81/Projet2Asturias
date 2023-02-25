@@ -4,7 +4,7 @@ import Bounce from "react-reveal/Bounce";
 import Roll from "react-reveal/Roll";
 import Flip from "react-reveal/Flip";
 
-class AnimateText extends React.Component {
+class AnimateTitle extends React.Component {
   state = { animation: "zoom" };
 
   handleAnimation = animation => {
@@ -68,4 +68,4 @@ class AnimateText extends React.Component {
   }
 }
 
-export default AnimateText;
+export default AnimateTitle;
