@@ -3,7 +3,7 @@ import Zoom from "react-reveal/Zoom";
 import Bounce from "react-reveal/Bounce";
 import Roll from "react-reveal/Roll";
 import Flip from "react-reveal/Flip";
-import flower from "../../public/img/logo3.svg";
+import logo3 from "../../public/img/logo3.svg";
 
 class AnimateLogo extends React.Component {
   state = { animation: "zoom" };
