@@ -15,8 +15,9 @@ class AnimateText extends React.Component {
     return (
       <div
         style={{
-          marginTop: "150px",
-          fontSize: "25px",
+          marginTop: "0%",
+          fontSize: "5em",
+          fontFamily: "'Dancing Script', cursive",
           color: "#178ca4",
           fontWeight: "bold"
         }}
