@@ -9,7 +9,7 @@ const Histoire = () => {
 
     return (
         <div>
-            <img className='logo' src='../../img/logo2.svg' alt='picto' />
+            <img className='logo' src='../../img/logo3.svg' alt='picto' />
             <h2>Un peu d'histoire</h2>
             <p>
                La région des Asturies est appelée «Principauté des Asturies» («Principado de Asturias» en espagnol ou «Principáu d'Asturies» en asturien). 

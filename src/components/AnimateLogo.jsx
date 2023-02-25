@@ -20,7 +20,7 @@ class AnimateImage extends React.Component {
           width: "225px",
           height: "225px",
           backgroundSize: "contain !important",
-          background: `url(../../public/img/logo2.svg) no-repeat`
+          background: `url(../../public/img/logo3.svg) no-repeat`
         }}
       />
     );
@@ -55,10 +55,10 @@ class AnimateImage extends React.Component {
             marginTop: "15px"
           }}
         >
-          <button onClick={() => this.handleDirection("flip")}>Flip</button>
-          <button onClick={() => this.handleDirection("zoom")}>Zoom</button>
-          <button onClick={() => this.handleDirection("bounce")}>Bounce</button>
-          <button onClick={() => this.handleDirection("roll")}>Roll</button>
+         window.onLoad ={() => this.handleDirection("flip")}
+         {/**<button onClick={() => this.handleDirection("zoom")}>Zoom</button> */} 
+         {/**<button onClick={() => this.handleDirection("bounce")}>Bounce</button> */} 
+         {/**<button onClick={() => this.handleDirection("roll")}>Roll</button> */} 
         </div>
 
         {comp}
