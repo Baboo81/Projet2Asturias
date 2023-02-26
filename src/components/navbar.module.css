@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&display=swap');
 
+:root
+{
+    --white: #f9f7f0;
+    --saumon: #f76566;
+    --turquoise: #18b7be;
+    --bleu: #178ca4;
+    --bleuSombre: #072a40;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -15,7 +24,7 @@ ul {
   
   li a {
     display: block;
-    color: var(--saumon);
+    color: var(--turquoise);
     font-size: 1.5em;
     font-family: 'Anton', sans-serif;
     text-align: center;
@@ -25,5 +34,5 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: black;
+    background-color: var(--bleuSombre);
   }

@@ -16,7 +16,7 @@ class AnimateTitle extends React.Component {
       <div
         style={{
           marginTop: "0%",
-          fontSize: "5em",
+          fontSize: "8em",
           fontFamily: "'Dancing Script', cursive",
           color: "#178ca4",
           fontWeight: "bold"

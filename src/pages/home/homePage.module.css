@@ -31,10 +31,9 @@ main
 h1
 {
     
-    font-size: 6em;
     color: var(--turquoise);
     padding: 0%;
-    margin-top: -45%;
+    margin-top: -50%;
 }
 
 .logo

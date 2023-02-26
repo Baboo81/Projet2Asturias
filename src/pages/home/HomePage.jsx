@@ -2,6 +2,7 @@ import style from './homePage.module.css';
 import Navbar from "../../components/Navbar"
 import Reveal from "../../components/AnimateTitle";
 
+
 const HomePage = () => {
     
 
