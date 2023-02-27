@@ -8,7 +8,7 @@ import Card from "react-animated-3d-card";
 const Histoire = () => {
 
     return (
-        <div>
+        <>
             <img className='logo' src='../../img/logo3.svg' alt='picto' />
             <h2>Un peu d'histoire</h2>
             <p>
@@ -22,19 +22,9 @@ const Histoire = () => {
                premier roi des Asturies, fut élevée vers le ciel en signe de victoire. Au IXe siècle, le roi Alphonse III des Asturies adopta ce drapeau comme symbole de son royaume 
                en y ajoutant les lettres grecques alpha (en majuscule) et oméga (en minuscule) en référence à l'éternité du Christ, qui est le commencement et la fin. 
             </p>
-            <Card 
-            style ={{
-                display : "flex",
-                backgroundColor : "#f76566",
-                width : "500px",
-                height : "600px",
-                marginLeft : "5%",
-                cursor : "pointer"
-            }}
-            onClick= {() => console.log("Card clicked")}
-            />
+            
            
-        </div>
+        </>
     )
 }
 

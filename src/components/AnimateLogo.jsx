@@ -20,7 +20,7 @@ class AnimateLogo extends React.Component {
           width: "225px",
           height: "225px",
           backgroundSize: "contain !important",
-          background: `url(../../img/logo3.svg) no-repeat`
+          background: `url(${logo3}) no-repeat`
         }}
       />
     );
