@@ -21,14 +21,14 @@
 
 p
 {
-    height: 50%;
-    width: 50%;
+
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
     font-weight: bold;
-    color: var(--turquoise);
+    color: var(--bleuSombre);
     padding: 1%;
-    margin-left: 23%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 h2

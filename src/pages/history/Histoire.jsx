@@ -16,10 +16,10 @@ const Histoire = () => {
             style ={{
                 display : "flex",
                 backgroundColor : "#178ca4",
-                width : "900px",
-                height : "500px",
-                marginLeft : "10%",
-                opacity : "50%",
+                width : "30%",
+                height : "50%",
+                marginLeft : "35%",
+                opacity : "80%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
@@ -33,9 +33,7 @@ const Histoire = () => {
                Cette région de 10 604 km² (trois fois moindre que la Catalogne) n'est composée que d'une seule province et la capitale se nomme Uviéu (Oviedo en espagnol), 
                mais la ville la plus peuplée est Gijón (266 000, contre 201 000 pour la capitale).
                Le drapeau asturien représente, sur fond bleu, la croix de la Victoire, jaune, croisée, légèrement pattée et à branches inégales. 
-               Il tire son origine de la bataille de Cuadonga (en 722) lorsque l'armée asturienne triompha sur les musulmans. La croix portée par Pelayo (ou Pélage le Conquérant), 
-               premier roi des Asturies, fut élevée vers le ciel en signe de victoire. Au IXe siècle, le roi Alphonse III des Asturies adopta ce drapeau comme symbole de son royaume 
-               en y ajoutant les lettres grecques alpha (en majuscule) et oméga (en minuscule) en référence à l'éternité du Christ, qui est le commencement et la fin. 
+               Il tire son origine de la bataille de Cuadonga (en 722) lorsque l'armée asturienne triompha sur les musulmans. 
             </p>
             </Card>
            
