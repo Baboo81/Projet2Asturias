@@ -13,17 +13,19 @@ const Contact = () => {
             style ={{
                 display : "flex",
                 backgroundColor : "#178ca4",
-                width : "900px",
-                height : "500px",
+                width : "50%",
+                height : "50%",
                 marginLeft : "10%",
                 opacity : "50%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
             >
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, temporibus.</p>
+            
 
         </Card>
+
+        
         </>
     )
 }
