@@ -11,6 +11,21 @@ const Histoire = () => {
         <>
             <img className='logo' src='../../img/logo3.svg' alt='picto' />
             <h2>Un peu d'histoire</h2>
+
+            <Card 
+            style ={{
+                display : "flex",
+                backgroundColor : "#178ca4",
+                width : "900px",
+                height : "500px",
+                marginLeft : "10%",
+                opacity : "50%",
+                cursor : "pointer"
+            }}
+            onClick= {() => console.log("Card clicked")}
+            >
+
+            
             <p>
                La région des Asturies est appelée «Principauté des Asturies» («Principado de Asturias» en espagnol ou «Principáu d'Asturies» en asturien). 
                Les Asturies forment une communauté autonome au nord de l'Espagne, laquelle est limitée à l'ouest par la Galice, au sud par la Castille-et-León, 
@@ -22,7 +37,7 @@ const Histoire = () => {
                premier roi des Asturies, fut élevée vers le ciel en signe de victoire. Au IXe siècle, le roi Alphonse III des Asturies adopta ce drapeau comme symbole de son royaume 
                en y ajoutant les lettres grecques alpha (en majuscule) et oméga (en minuscule) en référence à l'éternité du Christ, qui est le commencement et la fin. 
             </p>
-            
+            </Card>
            
         </>
     )

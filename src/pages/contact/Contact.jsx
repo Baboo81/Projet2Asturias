@@ -20,7 +20,10 @@ const Contact = () => {
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
-            />
+            >
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, temporibus.</p>
+
+        </Card>
         </>
     )
 }
