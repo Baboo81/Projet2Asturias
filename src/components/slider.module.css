@@ -2,7 +2,12 @@
 .tag
 {
 
-    margin-left: 10%;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    color: var(--turquoise);
+    padding: 0%;
+    margin-top: -2%;
     
 }
 
@@ -15,7 +20,7 @@
 
 .imgslider
 {
-    margin-top: 5%;
+    margin-top: -2%;
     margin-left: 25%;
     margin-right: 20%;
 }
