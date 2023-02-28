@@ -19,10 +19,10 @@ const ImageSlider = ({images}) => {
 
     return (
         <>
-            <div className="tag">
+            <div className= {style.tag}>
                
             </div>
-            <div className="imgslider">
+            <div className= {style.imgslider} >
                 <Slider {...settings} >
                     {images.map((item) => (
                         <div key={item.id} >

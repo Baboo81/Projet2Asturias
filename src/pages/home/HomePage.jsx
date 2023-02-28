@@ -8,7 +8,7 @@ const HomePage = () => {
 
     return (
         <>
-            <img className='logo' src='../../img/logo3.svg' alt='picto' />
+            <img className= 'logo' src='../../img/logo3.svg' alt='picto' />
             <h1></h1>
             <Reveal />
         </>

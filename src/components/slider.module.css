@@ -2,7 +2,7 @@
 .tag
 {
 
-    text-align: center;
+    margin-left: 10%;
     
 }
 
@@ -15,5 +15,7 @@
 
 .imgslider
 {
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
 }
