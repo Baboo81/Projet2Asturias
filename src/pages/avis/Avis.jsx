@@ -159,7 +159,7 @@ const Avis = () => {
                     </div>
 
                     <div className= {style.btn}>
-                        <input type="submit" className= {style.glowOnHover} />
+                        <button type="submit" className= {style.glowOnHover}>Envoyer</button>
                     </div>
                 </form>
             </div>
