@@ -4,6 +4,8 @@ import { Component } from 'react';
 import { useForm } from "react-hook-form"
 
 
+
+
 const Avis = () => {
 
     return (
@@ -49,7 +51,9 @@ const Avis = () => {
 
                     <div>
                         <button className= {style.btn} onclick="soumettre()">Soumettre</button>
+                        
 
+                        <button className= {style.glowOnHover} type="button">Soumettre</button>   
                     </div>
                 </form>
             </div>

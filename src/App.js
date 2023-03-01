@@ -2,7 +2,7 @@ import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import './App.css';
 import ImageSlider from './components/ImageSlider';
-import Contact from './pages/contact/Avis';
+import Avis from './pages/avis/Avis';
 import NotFoundPage from './pages/errors/NotFoundPage';
 import Histoire from './pages/history/Histoire';
 import HomePage from './pages/home/HomePage';
@@ -23,7 +23,7 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/home' element={<HomePage />} />
-            <Route path='/contact' element={<Contact />} />
+            <Route path='/avis' element={<Avis />} />
             <Route path='/history' element={<Histoire />} />
             <Route path='/visit' element={<Avisiter />} />
             <Route path='/errors' element={<NotFoundPage />} />
