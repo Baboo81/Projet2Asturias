@@ -25,14 +25,11 @@ const Avis = () => {
 
     function soumettre() {
 
-        //inputs // contnient tout ton objet de form
-
-      
+        //inputs contient un objet de form
        let reponseNon = 0;
        let reponseOui = 0;
 
-        //Regarder pour chaque question si oui ou non coché
-        //Ajouté 1 à reponseOui ou reponseNon
+       
         if (inputs.q1 == 'o') {
             reponseOui++;
         }
