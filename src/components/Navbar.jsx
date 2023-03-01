@@ -6,7 +6,7 @@ const Navbar = () => (
         
             <ul className= {style.menu}>
                 <li>
-                    <Link  to='/home'>Home Page</Link>
+                    <Link  to='/home'>Accueil</Link>
                 </li>
                 <li>
                     <Link  to='/visit'>Á visiter</Link>
