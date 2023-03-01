@@ -15,7 +15,7 @@ const Navbar = () => (
                     <Link  to='/history'>Histoire</Link>
                 </li>
                 <li>
-                    <Link  to='/avis'>Avis</Link>
+                    <Link  to='/avis'>Votre avis</Link>
                 </li>
             </ul>
     </nav>
