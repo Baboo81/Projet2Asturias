@@ -8,3 +8,15 @@
     --bleu: #178ca4;
     --bleuSombre: #072a40;
 }
+
+.container
+{
+    display: flex;
+    color: var(--turquoise);
+    font-size: 1em;
+}
+
+.btn
+{
+    
+}

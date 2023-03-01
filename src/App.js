@@ -2,7 +2,7 @@ import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import './App.css';
 import ImageSlider from './components/ImageSlider';
-import Contact from './pages/contact/Contact';
+import Contact from './pages/contact/Avis';
 import NotFoundPage from './pages/errors/NotFoundPage';
 import Histoire from './pages/history/Histoire';
 import HomePage from './pages/home/HomePage';
@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 import "@sl-codeblaster/react-3d-animated-card";
 import AnimatedCard from "@sl-codeblaster/react-3d-animated-card";
 import Card from "react-animated-3d-card";
+
 
 
 function App() {
