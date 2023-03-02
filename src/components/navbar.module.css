@@ -7,6 +7,7 @@
     --turquoise: #18b7be;
     --bleu: #178ca4;
     --bleuSombre: #072a40;
+    --rouge: #fe0000;
 }
 
 ul 
@@ -27,7 +28,7 @@ li
 li a 
 {
     display: block;
-    color: var(--turquoise);
+    color: var(--rouge);
     font-size: 1.5em;
     font-family: 'Anton', sans-serif;
     text-align: center;
