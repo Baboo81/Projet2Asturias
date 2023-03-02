@@ -1,7 +1,8 @@
 import style from './avis.module.css';
 import Navbar from "../../components/Navbar";
 import { Component, useState } from 'react';
-import { useForm } from "react-hook-form"
+import { useForm } from "react-hook-form";
+import Popup from 'reactjs-popup';
 
 
 
@@ -83,31 +84,46 @@ const Avis = () => {
         console.log(reponseNon);
     
         if (reponseNon == 0 && reponseOui == 6) {
-            alert("Vous êtes enchanté !");
+          alert("Vous êtes enchanté !");
+            <Popup trigger={<button> Trigger </button>} position="right center">
+                <div>Vous êtes enchanté !</div>
+            </Popup>
     
         } else if (reponseNon == 1 && reponseOui == 5) {
-    
             alert("Vous avez fortement apprécié votre visite !");
+            <Popup trigger={<button> Trigger </button>} position="right center">
+                <div>Vous avez fortement apprécié votre visite !</div>
+            </Popup>
     
         } else if (reponseNon == 2 && reponseOui == 4) {
-    
             alert("Vous avez apprécié votre visite !");
+            <Popup trigger={<button> Trigger </button>} position="right center">
+                <div>Vous avez apprécié votre visite !</div>
+            </Popup>
+    
     
         } else if (reponseNon == 3 && reponseOui == 3) {
-    
             alert("Vous êtes mitigé !");
+            <Popup trigger={<button> Trigger </button>} position="right center">
+                <div>Vous êtes mitigé !</div>
+            </Popup>
     
         } else if (reponseNon == 4 && reponseOui == 2) {
-    
             alert("Votre visite ne vous a pas satisfait !");
+            <Popup trigger={<button> Trigger </button>} position="right center">
+                <div>Votre visite ne vous a pas satisfait !</div>
+            </Popup>
+    
     
         } else if (reponseNon == 5 && reponseOui == 1) {
-    
             alert("Votre visite vous a déçu !");
+            <Popup trigger={<button> Trigger </button>} position="right center">
+                <div>Votre visite vous a déçu !</div>
+            </Popup>
     
         } else if (reponseNon == 6 && reponseOui == 0) {
-    
             alert("Votre visite vous a terriblement déçu !");
+           
         }
     }
     
