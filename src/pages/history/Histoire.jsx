@@ -16,9 +16,10 @@ const Histoire = () => {
             style ={{
                 display : "flex",
                 backgroundColor : "#178ca4",
-                width : "30%",
+                width : "90%",
                 height : "50%",
-                marginLeft : "35%",
+                marginRight : "0%",
+                marginLeft : "5%",
                 opacity : "80%",
                 cursor : "pointer"
             }}
