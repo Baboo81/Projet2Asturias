@@ -83,12 +83,9 @@ const Avis = () => {
          
         console.log(reponseOui);
         console.log(reponseNon);
-    
-        if (reponseNon == 0 && reponseOui == 6) {
-          //alert("Vous êtes enchanté !");
 
-        //Fct affichage du popup :
-        function ModalPopup () {
+       {/**function ModalPopup () {
+
             const [isOpenPopup, setIsOpenPopup] = useState(false);
 
             return (
@@ -98,115 +95,59 @@ const Avis = () => {
                     {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
                 </>
             );
-        }
+        } */} 
+       
+       
+    
+        if (reponseNon == 0 && reponseOui == 6) {
+          alert("Vous êtes enchanté !");
+
+        
+       
+            
+        
     
         } else if (reponseNon == 1 && reponseOui == 5) {
-           //alert("Vous avez fortement apprécié votre visite !");
+           alert("Vous avez fortement apprécié votre visite !");
 
-        //Fct affichage du popup :
-        function ModalPopup () {
-            const [isOpenPopup, setIsOpenPopup] = useState(false);
-
-            return (
-                <>
-                    <h1>Vous avez fortement apprécié votre visite !</h1>
-                    <button onClick={setIsOpenPopup.bind(this, true)}>Open Popup</button>
-                    {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
-                </>
-            );
-        }
+           
+        
            
     
         } else if (reponseNon == 2 && reponseOui == 4) {
-            //alert("Vous avez apprécié votre visite !");
+            alert("Vous avez apprécié votre visite !");
 
-        //Fct affichage du popup :
-        function ModalPopup () {
-            const [isOpenPopup, setIsOpenPopup] = useState(false);
-
-            return (
-                <>
-                    <h1>Vous avez apprécié votre visite !</h1>
-                    <button onClick={setIsOpenPopup.bind(this, true)}>Open Popup</button>
-                    {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
-                </>
-            );
-        }
+        
           
     
     
         } else if (reponseNon == 3 && reponseOui == 3) {
-            //alert("Vous êtes mitigé !");
+            alert("Vous êtes mitigé !");
 
-        //Fct affichage du popup :
-        function ModalPopup () {
-            const [isOpenPopup, setIsOpenPopup] = useState(false);
-
-            return (
-                <>
-                    <h1>Vous êtes mitigé !</h1>
-                    <button onClick={setIsOpenPopup.bind(this, true)}>Open Popup</button>
-                    {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
-                </>
-            );
-        }
+       
+        
           
     
         } else if (reponseNon == 4 && reponseOui == 2) {
-            //alert("Votre visite ne vous a pas satisfait !");
+            alert("Votre visite ne vous a pas satisfait !");
 
-        //Fct affichage du popup :
-        function ModalPopup () {
-            const [isOpenPopup, setIsOpenPopup] = useState(false);
-
-            return (
-                <>
-                    <h1>Votre visite ne vous a pas satisfait !</h1>
-                    <button onClick={setIsOpenPopup.bind(this, true)}>Open Popup</button>
-                    {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
-                </>
-            );
-        }
+           
+        
            
     
         } else if (reponseNon == 5 && reponseOui == 1) {
-            //alert("Votre visite vous a déçu !");
+            alert("Votre visite vous a déçu !");
 
-        //Fct affichage du popup :
-        function ModalPopup () {
-            const [isOpenPopup, setIsOpenPopup] = useState(false);
-
-            return (
-                <>
-                    <h1>Votre visite vous a déçu !</h1>
-                    <button onClick={setIsOpenPopup.bind(this, true)}>Open Popup</button>
-                    {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
-                </>
-            );
-        }
+            
+        
           
     
         } else if (reponseNon == 6 && reponseOui == 0) {
-            //alert("Votre visite vous a terriblement déçu !");
+            alert("Votre visite vous a terriblement déçu !");
 
-        //Fct affichage du popup :
-        function ModalPopup () {
-            const [isOpenPopup, setIsOpenPopup] = useState(false);
-
-            return (
-                <>
-                    <h1>Votre visite vous a terriblement déçu !</h1>
-                    <button onClick={setIsOpenPopup.bind(this, true)}>Open Popup</button>
-                    {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
-                </>
-            );
+            
         }
-           
-        }
-
-        
-
-    }
+     }
     
     
     
