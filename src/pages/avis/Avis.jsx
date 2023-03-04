@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import { Component, useState } from 'react';
 import { useForm } from "react-hook-form";
 import Popup from '../../components/Popup';
+import { render } from '@testing-library/react';
 
 
 
@@ -31,51 +32,51 @@ const Avis = () => {
        let reponseOui = 0;
 
        
-        if (inputs.q1 == 'o') {
+        if (inputs.q1 === 'o') {
             reponseOui++;
         }
     
-        else if (inputs.q1 == 'n') {
+        else if (inputs.q1 === 'n') {
             reponseNon++;
         }
     
-        if (inputs.q2 == 'o') {
+        if (inputs.q2 === 'o') {
             reponseOui++;
         }
     
-        else if (inputs.q2 == 'n') {
+        else if (inputs.q2 === 'n') {
             reponseNon++;
         }
     
-        if (inputs.q3 == 'o') {
+        if (inputs.q3 === 'o') {
             reponseOui++;
         }
     
-        else if (inputs.q3 == 'n') {
+        else if (inputs.q3 === 'n') {
             reponseNon++;
         }
     
-        if (inputs.q4 == 'o') {
+        if (inputs.q4 === 'o') {
             reponseOui++;
         }
     
-        else if (inputs.q4 == 'n') {
+        else if (inputs.q4 === 'n') {
             reponseNon++;
         }
     
-        if (inputs.q5 == 'o') {
+        if (inputs.q5 === 'o') {
             reponseOui++;
         }
     
-        else if (inputs.q5 == 'n') {
+        else if (inputs.q5 === 'n') {
             reponseNon++;
         }
     
-        if (inputs.q6 == 'o') {
+        if (inputs.q6 === 'o') {
             reponseOui++;
         }
     
-        else if (inputs.q6 == 'n') {
+        else if (inputs.q6 === 'n') {
             reponseNon++;
         }
             
@@ -99,52 +100,80 @@ const Avis = () => {
        
        
     
-        if (reponseNon == 0 && reponseOui == 6) {
-          alert("Vous êtes enchanté !");
+        if (reponseNon === 0 && reponseOui === 6) {
+          
 
+         
+        return (
+            <>
+                <dialog>Vous êtes enchanté !</dialog>
+            </>
+        )
+         
         
-       
+           } else if (reponseNon === 1 && reponseOui === 5) {
+          
+
+           return (
+            <>
+                <dialog open>Vous avez fortement apprécié votre visite !</dialog>
+            </>
+        )
+        
+           
+    
+           } else if (reponseNon === 2 && reponseOui === 4) {
             
-        
-    
-        } else if (reponseNon == 1 && reponseOui == 5) {
-           alert("Vous avez fortement apprécié votre visite !");
 
-           
-        
-           
-    
-        } else if (reponseNon == 2 && reponseOui == 4) {
-            alert("Vous avez apprécié votre visite !");
-
-        
+            return (
+                <>
+                    <dialog open>Vous avez  apprécié votre visite !</dialog>
+                </>
+            )
           
     
     
-        } else if (reponseNon == 3 && reponseOui == 3) {
-            alert("Vous êtes mitigé !");
-
-       
-        
-          
-    
-        } else if (reponseNon == 4 && reponseOui == 2) {
-            alert("Votre visite ne vous a pas satisfait !");
-
-           
-        
-           
-    
-        } else if (reponseNon == 5 && reponseOui == 1) {
-            alert("Votre visite vous a déçu !");
-
+            } else if (reponseNon === 3 && reponseOui === 3) {
             
+
+            return (
+                <>
+                    <dialog open>Vous êtes mitigé !</dialog>
+                </>
+            )
         
           
     
-        } else if (reponseNon == 6 && reponseOui == 0) {
-            alert("Votre visite vous a terriblement déçu !");
+        } else if (reponseNon === 4 && reponseOui === 2) {
+            
 
+            return (
+                <>
+                    <dialog open>Votre visite ne vous a pas satisfait !</dialog>
+                </>
+            )
+        
+           
+    
+        } else if (reponseNon === 5 && reponseOui === 1) {
+            
+
+            return (
+                <>
+                    <dialog open>Votre visite vous a déçu !</dialog>
+                </>
+            )
+        
+          
+    
+        } else if (reponseNon === 6 && reponseOui === 0) {
+            
+
+            return (
+                <>
+                    <dialog open>Votre visite vous a terriblement déçu !</dialog>
+                </>
+            )
             
         }
      }
