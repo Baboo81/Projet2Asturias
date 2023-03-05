@@ -2,8 +2,8 @@ import style from './avis.module.css';
 import Navbar from "../../components/Navbar";
 import { Component, useState } from 'react';
 import { useForm } from "react-hook-form";
-import Popup from '../../components/Popup';
-import { render } from '@testing-library/react';
+
+
 
 
 
@@ -85,95 +85,54 @@ const Avis = () => {
         console.log(reponseOui);
         console.log(reponseNon);
 
-       {/**function ModalPopup () {
-
-            const [isOpenPopup, setIsOpenPopup] = useState(false);
-
-            return (
-                <>
-                    <h1>Vous êtes enchanté !</h1>
-                    <button onClick={setIsOpenPopup.bind(this, true)}>Open Popup</button>
-                    {isOpenPopup && <Popup setIsOpenPopup={setIsOpenPopup} />}
-                </>
-            );
-        } */} 
-       
        
     
         if (reponseNon === 0 && reponseOui === 6) {
           
-
-         
-        return (
-            <>
-                <dialog>Vous êtes enchanté !</dialog>
-            </>
-        )
+             alert("Vous êtes enchanté !")
+     
          
         
            } else if (reponseNon === 1 && reponseOui === 5) {
           
-
-           return (
-            <>
-                <dialog open>Vous avez fortement apprécié votre visite !</dialog>
-            </>
-        )
+            alert("Vous avez fortement apprécié votre visite !")
         
            
     
            } else if (reponseNon === 2 && reponseOui === 4) {
             
-
-            return (
-                <>
-                    <dialog open>Vous avez  apprécié votre visite !</dialog>
-                </>
-            )
+               alert("Vous avez  apprécié votre visite !")
+            
           
     
     
             } else if (reponseNon === 3 && reponseOui === 3) {
             
-
-            return (
-                <>
-                    <dialog open>Vous êtes mitigé !</dialog>
-                </>
-            )
+                alert("Vous êtes mitigé !")
+          
         
           
     
         } else if (reponseNon === 4 && reponseOui === 2) {
             
-
-            return (
-                <>
-                    <dialog open>Votre visite ne vous a pas satisfait !</dialog>
-                </>
-            )
+               alert("Votre visite ne vous a pas satisfait !")
+            
         
            
     
         } else if (reponseNon === 5 && reponseOui === 1) {
             
-
-            return (
-                <>
-                    <dialog open>Votre visite vous a déçu !</dialog>
-                </>
-            )
+                alert("Votre visite vous a déçu !") 
+                
+            
         
           
     
         } else if (reponseNon === 6 && reponseOui === 0) {
             
-
-            return (
-                <>
-                    <dialog open>Votre visite vous a terriblement déçu !</dialog>
-                </>
-            )
+                alert("Votre visite vous a terriblement déçu !")
+            
+        
             
         }
      }
