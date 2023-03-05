@@ -97,9 +97,7 @@ const Avis = () => {
                 </div>
              )
      
-         
-        
-           } else if (reponseNon === 1 && reponseOui === 5) {
+        } else if (reponseNon === 1 && reponseOui === 5) {
           
              //alert("Vous avez fortement apprécié votre visite !")
              return (
@@ -108,9 +106,7 @@ const Avis = () => {
                 </div>
              )
         
-           
-    
-           } else if (reponseNon === 2 && reponseOui === 4) {
+        } else if (reponseNon === 2 && reponseOui === 4) {
             
                //alert("Vous avez  apprécié votre visite !")
                return (
@@ -119,10 +115,7 @@ const Avis = () => {
                 </div>
              )
             
-          
-    
-    
-            } else if (reponseNon === 3 && reponseOui === 3) {
+        } else if (reponseNon === 3 && reponseOui === 3) {
             
                 //alert("Vous êtes mitigé !")
                 return (
@@ -131,9 +124,6 @@ const Avis = () => {
                     </div>
                  )
           
-        
-          
-    
         } else if (reponseNon === 4 && reponseOui === 2) {
             
                //alert("Votre visite ne vous a pas satisfait !")
@@ -143,9 +133,6 @@ const Avis = () => {
                 </div>
              )
             
-        
-           
-    
         } else if (reponseNon === 5 && reponseOui === 1) {
             
                 //alert("Votre visite vous a déçu !") 
@@ -155,10 +142,6 @@ const Avis = () => {
                     </div>
                  )
                 
-            
-        
-          
-    
         } else if (reponseNon === 6 && reponseOui === 0) {
             
                 //alert("Votre visite vous a terriblement déçu !")
@@ -167,10 +150,7 @@ const Avis = () => {
                         <p>Vous êtes enchanté !</p>
                     </div>
                  )
-            
-        
-            
-        }
+            }
      }
     
     
