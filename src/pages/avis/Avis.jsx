@@ -2,6 +2,7 @@ import style from './avis.module.css';
 import Navbar from "../../components/Navbar";
 import { Component, useState } from 'react';
 import { useForm } from "react-hook-form";
+import { render } from '@testing-library/react';
 
 
 
@@ -89,40 +90,70 @@ const Avis = () => {
     
         if (reponseNon === 0 && reponseOui === 6) {
           
-             alert("Vous êtes enchanté !")
+             //alert("Vous êtes enchanté !")
+             return (
+                <div className= {style.popup}>
+                    <p>Vous êtes enchanté !</p>
+                </div>
+             )
      
          
         
            } else if (reponseNon === 1 && reponseOui === 5) {
           
-            alert("Vous avez fortement apprécié votre visite !")
+             //alert("Vous avez fortement apprécié votre visite !")
+             return (
+                <div className= {style.popup}>
+                    <p>Vous êtes enchanté !</p>
+                </div>
+             )
         
            
     
            } else if (reponseNon === 2 && reponseOui === 4) {
             
-               alert("Vous avez  apprécié votre visite !")
+               //alert("Vous avez  apprécié votre visite !")
+               return (
+                <div className= {style.popup}>
+                    <p>Vous êtes enchanté !</p>
+                </div>
+             )
             
           
     
     
             } else if (reponseNon === 3 && reponseOui === 3) {
             
-                alert("Vous êtes mitigé !")
+                //alert("Vous êtes mitigé !")
+                return (
+                    <div className= {style.popup}>
+                        <p>Vous êtes enchanté !</p>
+                    </div>
+                 )
           
         
           
     
         } else if (reponseNon === 4 && reponseOui === 2) {
             
-               alert("Votre visite ne vous a pas satisfait !")
+               //alert("Votre visite ne vous a pas satisfait !")
+               return (
+                <div className= {style.popup}>
+                    <p>Vous êtes enchanté !</p>
+                </div>
+             )
             
         
            
     
         } else if (reponseNon === 5 && reponseOui === 1) {
             
-                alert("Votre visite vous a déçu !") 
+                //alert("Votre visite vous a déçu !") 
+                return (
+                    <div className= {style.popup}>
+                        <p>Vous êtes enchanté !</p>
+                    </div>
+                 )
                 
             
         
@@ -130,7 +161,12 @@ const Avis = () => {
     
         } else if (reponseNon === 6 && reponseOui === 0) {
             
-                alert("Votre visite vous a terriblement déçu !")
+                //alert("Votre visite vous a terriblement déçu !")
+                return (
+                    <div className= {style.popup}>
+                        <p>Vous êtes enchanté !</p>
+                    </div>
+                 )
             
         
             

@@ -57,7 +57,12 @@
     padding: 2%;
 }
 
-
+.popup
+{
+    border: 2px solid white;
+    height: 20%;
+    width: 20%;
+}
 
 /*Btn animation*/
 .glowOnHover {
