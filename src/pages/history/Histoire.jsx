@@ -16,7 +16,7 @@ const Histoire = () => {
             <Card 
             style ={{
                 display : "flex",
-                backgroundColor : "#178ca4",
+                backgroundColor : "black",
                 width : "90%",
                 height : "50%",
                 marginRight : "0%",

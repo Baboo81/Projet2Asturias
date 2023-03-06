@@ -8,15 +8,17 @@ import Card from "react-animated-3d-card";
 const Gastronomie = () => {
 
     return (
-        <>
+        <div>
             <img className='logo' src='../../img/logo3.svg' alt='picto' />
             <h2>Les incontournables</h2>
 
             <Card 
             style ={{
-                display : "flex",
+                justifyContent : "startEnd",
                 width : "100%",
                 height : "100%",
+                padding : "1%",
+                backgroundColor : "black",
                 opacity : "80%",
                 cursor : "pointer"
             }}
@@ -30,9 +32,11 @@ const Gastronomie = () => {
 
             <Card 
             style ={{
-                display : "flex",
+                
                 width : "100%",
                 height : "100%",
+                padding : "1%",
+                backgroundColor : "black",
                 opacity : "80%",
                 cursor : "pointer"
             }}
@@ -46,9 +50,11 @@ const Gastronomie = () => {
 
             <Card 
             style ={{
-                display : "flex",
+                
                 width : "100%",
                 height : "100%",
+                padding : "1%",
+                backgroundColor : "black",
                 opacity : "80%",
                 cursor : "pointer"
             }}
@@ -62,9 +68,11 @@ const Gastronomie = () => {
 
             <Card 
             style ={{
-                display : "flex",
+
                 width : "100%",
                 height : "100%",
+                padding : "1%",
+                backgroundColor : "black",
                 opacity : "80%",
                 cursor : "pointer"
             }}
@@ -75,7 +83,7 @@ const Gastronomie = () => {
             
             </Card>
            
-        </>
+        </div>
     )
 }
 
