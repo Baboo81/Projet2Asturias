@@ -18,6 +18,7 @@ import React, { useState } from "react";
 
 
 
+
 function App() {
   
 
@@ -33,7 +34,6 @@ function App() {
             <Route path='/visit' element={<Avisiter />} />
             <Route path='/errors' element={<NotFoundPage />} />
           </Routes>
-         
         </main>
       </div>
   );
