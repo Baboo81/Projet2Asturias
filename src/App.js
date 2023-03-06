@@ -12,6 +12,7 @@ import "@sl-codeblaster/react-3d-animated-card";
 import AnimatedCard from "@sl-codeblaster/react-3d-animated-card";
 import Card from "react-animated-3d-card";
 import React, { useState } from "react";
+import Gastronomie from './pages/gastronomie/Gastronomie';
 
 
 
@@ -31,6 +32,7 @@ function App() {
             <Route path='/home' element={<HomePage />} />
             <Route path='/avis' element={<Avis />} />
             <Route path='/history' element={<Histoire />} />
+            <Route path='/gastronomie' element={<Gastronomie />} />
             <Route path='/visit' element={<Avisiter />} />
             <Route path='/errors' element={<NotFoundPage />} />
           </Routes>
