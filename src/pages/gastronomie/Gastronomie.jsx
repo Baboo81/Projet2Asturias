@@ -26,10 +26,63 @@ const Gastronomie = () => {
             onClick= {() => console.log("Card clicked")}
             >
 
+            <img src="../../img/gastronomie/churros.jpg" alt="représentation de churros" />
             
-            <p>
-               
-            </p>
+            </Card>
+
+            <Card 
+            style ={{
+                display : "flex",
+                backgroundColor : "#178ca4",
+                width : "90%",
+                height : "50%",
+                marginRight : "0%",
+                marginLeft : "5%",
+                opacity : "80%",
+                cursor : "pointer"
+            }}
+            onClick= {() => console.log("Card clicked")}
+            >
+
+            <img src="../../img/gastronomie/cidre.jpg" alt="représentation du cidre" />
+            
+            </Card>
+
+            <Card 
+            style ={{
+                display : "flex",
+                backgroundColor : "#178ca4",
+                width : "90%",
+                height : "50%",
+                marginRight : "0%",
+                marginLeft : "5%",
+                opacity : "80%",
+                cursor : "pointer"
+            }}
+            onClick= {() => console.log("Card clicked")}
+            >
+
+            <img src="../../img/gastronomie/fabada.jpg" alt="représentation de la fabada" />
+            
+            
+            </Card>
+
+            <Card 
+            style ={{
+                display : "flex",
+                backgroundColor : "#178ca4",
+                width : "90%",
+                height : "50%",
+                marginRight : "0%",
+                marginLeft : "5%",
+                opacity : "80%",
+                cursor : "pointer"
+            }}
+            onClick= {() => console.log("Card clicked")}
+            >
+
+            <img src="../../img/gastronomie/fromages.jpg" alt="représentation de fromages" />
+            
             </Card>
            
         </>
