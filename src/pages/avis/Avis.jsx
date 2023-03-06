@@ -2,8 +2,8 @@ import style from './avis.module.css';
 import Navbar from "../../components/Navbar";
 import { Component, useState } from 'react';
 import { useForm } from "react-hook-form";
-import { render } from '@testing-library/react';
-import PopupAvis from '../../components/PopupAvis'
+
+
 
 
 
@@ -87,41 +87,41 @@ const Avis = () => {
         console.log(reponseOui);
         console.log(reponseNon);
 
-       const msg = ""; 
+        
     
         if (reponseNon === 0 && reponseOui === 6) {
           
-            msg ="Vous êtes enchanté !"
+            alert("Vous êtes enchanté !")
            
      
         } else if (reponseNon === 1 && reponseOui === 5) {
           
-             msg ="Vous avez fortement apprécié votre visite !"
+             alert("Vous avez fortement apprécié votre visite !")
            
         
         } else if (reponseNon === 2 && reponseOui === 4) {
             
-               msg ="Vous avez  apprécié votre visite !"
+               alert("Vous avez  apprécié votre visite !")
           
             
         } else if (reponseNon === 3 && reponseOui === 3) {
             
-                msg ="Vous êtes mitigé !"
+                alert("Vous êtes mitigé !")
                
           
         } else if (reponseNon === 4 && reponseOui === 2) {
             
-               msg ="Votre visite ne vous a pas satisfait !"
+               alert("Votre visite ne vous a pas satisfait !")
             
             
         } else if (reponseNon === 5 && reponseOui === 1) {
             
-                msg ="Votre visite vous a déçu !" 
+                alert("Votre visite vous a déçu !") 
                
                 
         } else if (reponseNon === 6 && reponseOui === 0) {
             
-                msg ="Votre visite vous a terriblement déçu !"
+                alert("Votre visite vous a terriblement déçu !")
                
                  
             }
@@ -179,7 +179,7 @@ const Avis = () => {
 
                 
             </div>
-            <PopupAvis  />
+            
             </>
     )
 }
