@@ -91,37 +91,37 @@ const Avis = () => {
     
         if (reponseNon === 0 && reponseOui === 6) {
           
-            alert("Vous êtes enchanté !")
+            alert("Vous êtes enchanté !");
            
      
         } else if (reponseNon === 1 && reponseOui === 5) {
           
-             alert("Vous avez fortement apprécié votre visite !")
+             alert("Vous avez fortement apprécié votre visite !");
            
         
         } else if (reponseNon === 2 && reponseOui === 4) {
             
-               alert("Vous avez  apprécié votre visite !")
+               alert("Vous avez  apprécié votre visite !");
           
             
         } else if (reponseNon === 3 && reponseOui === 3) {
             
-                alert("Vous êtes mitigé !")
+                alert("Vous êtes mitigé !");
                
           
         } else if (reponseNon === 4 && reponseOui === 2) {
             
-               alert("Votre visite ne vous a pas satisfait !")
+               alert("Votre visite ne vous a pas satisfait !");
             
             
         } else if (reponseNon === 5 && reponseOui === 1) {
             
-                alert("Votre visite vous a déçu !") 
+                alert("Votre visite vous a déçu !"); 
                
                 
         } else if (reponseNon === 6 && reponseOui === 0) {
             
-                alert("Votre visite vous a terriblement déçu !")
+                alert("Votre visite vous a terriblement déçu !");
                
                  
             }
@@ -137,38 +137,38 @@ const Avis = () => {
                 <form onSubmit={handleSubmit}>
                     <div className= {style.q1}>
                         <label htmlFor="avis"> Avez-vous apprécié votre visite ?</label><br />
-                        <input checked required name="q1" value="o" onChange={ handleChange } type="radio" />Oui
+                        <input  required name="q1" value="o" onChange={ handleChange } type="radio" />Oui
                         <input name="q1" value="n" onChange={ handleChange } type="radio" />Non<br />
                     </div>
 
 
                     <div className= {style.q2}>
                         <label htmlFor="avis"> Avez-vous apprécié le contenu de ce site ?</label><br />
-                        <input checked required name = "q2" value = "o" onChange={ handleChange } type = "radio" />Oui
+                        <input  required name = "q2" value = "o" onChange={ handleChange } type = "radio" />Oui
                         <input name = "q2" value = "n" onChange={ handleChange } type = "radio" />Non<br />
                     </div>
 
                     <div className= {style.q3}>
                         <label htmlFor="avis"> Est-ce que la visite de ce site vous a donné envie de découvrir cette région ?</label><br />
-                        <input checked required name = "q3" value = "o" onChange={ handleChange } type = "radio" />Oui
+                        <input  required name = "q3" value = "o" onChange={ handleChange } type = "radio" />Oui
                         <input name = "q3" value = "n" onChange={ handleChange } type = "radio" />Non<br />
                     </div>
 
                     <div className= {style.q4}>
                         <label htmlFor="avis"> Avez-vous trouvé le design appréciable ?</label><br />
-                        <input checked required name = "q4" value = "o" onChange={ handleChange } type = "radio" />Oui
+                        <input  required name = "q4" value = "o" onChange={ handleChange } type = "radio" />Oui
                         <input name = "q4" value = "n" onChange={ handleChange } type = "radio" />Non<br />
                     </div>
 
                     <div className= {style.q5}>
                         <label htmlFor="avis"> Avez-vous des suggestions ?</label><br />
-                        <input checked required name = "q5" value = "o" onChange={ handleChange } type = "radio" />Oui
+                        <input  required name = "q5" value = "o" onChange={ handleChange } type = "radio" />Oui
                         <input name = "q5" value = "n" onChange={ handleChange } type = "radio" />Non<br />
                     </div>
 
                     <div className= {style.q6}>
                         <label htmlFor="avis">Est-ce que les informations présentées sont suffisament claires ?</label><br />
-                        <input checked required name = "q6" value = "o" onChange={ handleChange } type = "radio" />Oui
+                        <input  required name = "q6" value = "o" onChange={ handleChange } type = "radio" />Oui
                         <input name = "q6" value = "n" onChange={ handleChange } type = "radio" />Non<br />
                     </div>
 
