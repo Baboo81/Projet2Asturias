@@ -1,27 +1,35 @@
 section
 {
     display: flex;
+    
 
 }
 
-.churros
+section.churros
 {
-    padding-left: 2%;
+    margin-left: -5%;
 }
 
-.cidre
+section.cidre
 {
-    padding-left: 37%;
-    margin-top: -17%;
+   margin-left: 10%;
+   margin-top: -10%;
 }
 
-.fabada
+section.fabada
 {
-
+    margin-left: 30%;
+    margin-top: -18%;
 }
 
-.fromages
+section.fromages
 {
-    padding-left: 60%;
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+section.poulpe
+{
+    margin-left: 68%;
     margin-top: -18%;
 }

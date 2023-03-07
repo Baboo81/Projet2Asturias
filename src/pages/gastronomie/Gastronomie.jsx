@@ -19,13 +19,14 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "80%",
+                opacity : "85%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
             >
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae!</p>    
+            
+            <h3>Les churros</h3>   
             <img className= {style.dish1} src="../../img/gastronomie/churros.jpg" alt="représentation de churros" />
             
             </Card>
@@ -39,13 +40,13 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "80%",
+                opacity : "85%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
             >
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae!</p>
+            <h3>Le cidre</h3>
             <img className= {style.dish2} src="../../img/gastronomie/cidre.jpg" alt="représentation du cidre" />
             
             </Card>
@@ -59,13 +60,13 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "80%",
+                opacity : "85%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
             >
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae!</p>
+            <h3>La potée asturienne</h3>
             <img className= {style.dish3} src="../../img/gastronomie/fabada.jpg" alt="représentation de la fabada" />
             
             </Card>
@@ -79,17 +80,35 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "80%",
+                opacity : "85%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
             >
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae!</p>    
+            <h3>Les fromages</h3>  
             <img className= {style.dish4} src="../../img/gastronomie/fromages.jpg" alt="représentation de fromages" />
             
             </Card>
-           
-         </section>
+        </section>
+
+        <section className= {style.poulpe} >
+            <Card 
+            style ={{
+
+                width : "100%",
+                height : "100%",
+                padding : "1%",
+                backgroundColor : "black",
+                opacity : "85%",
+                cursor : "pointer"
+            }}
+            onClick= {() => console.log("Card clicked")}
+            >
+            <h3>Le poulpe</h3>  
+            <img className= {style.dish5} src="../../img/gastronomie/pulpo.jpg" alt="représentation de poulpe" />
+            
+            </Card>
+        </section>
             
         
         </>

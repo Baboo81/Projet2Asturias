@@ -45,4 +45,13 @@ h2
     margin-top: -55%;
 }
 
+h3
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: var(--turquoise);
+    
+    
+}
+
 
