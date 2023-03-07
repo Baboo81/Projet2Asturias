@@ -8,6 +8,7 @@
     --turquoise: #18b7be;
     --bleu: #178ca4;
     --vert: #6bb434;
+    --jaune: #f7c304;
     --bleuSombre: #072a40;
   }
 
@@ -29,7 +30,7 @@ li
 li a 
 {
     display: block;
-    color: var(--vert);
+    color: var(--jaune);
     font-size: 1.5em;
     font-family: 'Anton', sans-serif;
     text-align: center;

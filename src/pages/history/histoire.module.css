@@ -9,6 +9,11 @@
     --bleuSombre: #072a40;
 }
 
+section
+{
+    padding-left: 10%;
+}
+
 .logo
 {
     float: left;

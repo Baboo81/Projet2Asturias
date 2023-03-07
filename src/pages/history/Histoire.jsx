@@ -12,15 +12,13 @@ const Histoire = () => {
         <>
             <img className='logo' src='../../img/logo3.svg' alt='picto' />
             <h2>Un peu d'histoire</h2>
-
-            <Card 
+        <section>
+         <Card 
             style ={{
                 display : "flex",
                 backgroundColor : "black",
                 width : "90%",
                 height : "50%",
-                marginRight : "0%",
-                marginLeft : "5%",
                 opacity : "80%",
                 cursor : "pointer"
             }}
@@ -38,6 +36,8 @@ const Histoire = () => {
                Il tire son origine de la bataille de Cuadonga (en 722) lorsque l'armée asturienne triompha sur les musulmans. 
             </p>
             </Card>
+        </section>
+            
            
         </>
     )

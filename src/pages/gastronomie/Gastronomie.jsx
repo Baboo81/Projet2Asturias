@@ -8,10 +8,10 @@ import Card from "react-animated-3d-card";
 const Gastronomie = () => {
 
     return (
-        <section>
-            <img className='logo' src='../../img/logo3.svg' alt='picto' />
-            <h2>Les incontournables</h2>
-
+        <>
+          <img className='logo' src='../../img/logo3.svg' alt='picto' />
+          <h2>Les incontournables</h2>
+          <section className= {style.churros} >
             <Card 
             style ={{
                 justifyContent : "startEnd",
@@ -29,14 +29,15 @@ const Gastronomie = () => {
             <img className= {style.dish1} src="../../img/gastronomie/churros.jpg" alt="représentation de churros" />
             
             </Card>
+           </section>
 
-            <Card 
+           <section className= {style.cidre} >
+             <Card 
             style ={{
                 
                 width : "100%",
                 height : "100%",
                 padding : "1%",
-                marginLeft : "110%",
                 backgroundColor : "black",
                 opacity : "80%",
                 cursor : "pointer"
@@ -48,7 +49,9 @@ const Gastronomie = () => {
             <img className= {style.dish2} src="../../img/gastronomie/cidre.jpg" alt="représentation du cidre" />
             
             </Card>
-
+         </section>
+           
+         <section className= {style.fabada} >
             <Card 
             style ={{
                 
@@ -66,14 +69,15 @@ const Gastronomie = () => {
             <img className= {style.dish3} src="../../img/gastronomie/fabada.jpg" alt="représentation de la fabada" />
             
             </Card>
-
+         </section>
+            
+         <section className= {style.fromages} >
             <Card 
             style ={{
 
                 width : "100%",
                 height : "100%",
                 padding : "1%",
-                marginLeft : "110%",
                 backgroundColor : "black",
                 opacity : "80%",
                 cursor : "pointer"
@@ -85,7 +89,11 @@ const Gastronomie = () => {
             
             </Card>
            
-        </section>
+         </section>
+            
+        
+        </>
+        
     )
 }
 
