@@ -14,7 +14,6 @@ const Gastronomie = () => {
           <section className= {style.churros} >
             <Card 
             style ={{
-                justifyContent : "startEnd",
                 width : "100%",
                 height : "100%",
                 padding : "1%",
@@ -35,7 +34,6 @@ const Gastronomie = () => {
            <section className= {style.cidre} >
              <Card 
             style ={{
-                
                 width : "100%",
                 height : "100%",
                 padding : "1%",
@@ -55,7 +53,6 @@ const Gastronomie = () => {
          <section className= {style.fabada} >
             <Card 
             style ={{
-                
                 width : "100%",
                 height : "100%",
                 padding : "1%",
@@ -75,7 +72,6 @@ const Gastronomie = () => {
          <section className= {style.fromages} >
             <Card 
             style ={{
-
                 width : "100%",
                 height : "100%",
                 padding : "1%",
@@ -94,7 +90,6 @@ const Gastronomie = () => {
         <section className= {style.poulpe} >
             <Card 
             style ={{
-
                 width : "100%",
                 height : "100%",
                 padding : "1%",
