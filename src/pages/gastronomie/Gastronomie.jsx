@@ -19,7 +19,7 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "85%",
+                opacity : "82%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
@@ -40,7 +40,7 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "85%",
+                opacity : "82%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
@@ -60,7 +60,7 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "85%",
+                opacity : "82%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
@@ -80,7 +80,7 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "85%",
+                opacity : "82%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
@@ -99,7 +99,7 @@ const Gastronomie = () => {
                 height : "100%",
                 padding : "1%",
                 backgroundColor : "black",
-                opacity : "85%",
+                opacity : "82%",
                 cursor : "pointer"
             }}
             onClick= {() => console.log("Card clicked")}
