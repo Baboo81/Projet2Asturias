@@ -20,7 +20,7 @@ const ImageSlider = ({images}) => {
     return (
         <>
             <div className= {style.tag}>
-               <h3>De Gijon aux Pics d'Europe</h3>
+               <h4>De Gijon aux Pics d'Europe</h4>
             </div>
             <div className= {style.imgslider} >
                 <Slider {...settings} >
