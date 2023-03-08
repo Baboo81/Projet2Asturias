@@ -31,9 +31,10 @@ li
 li a 
 {
     display: block;
-    color: var(--turquoise);
-    font-size: 1.5em;
+    color: var(--bleu);
+    font-size: 1.7em;
     font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 1px var(--bleuFoncé);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
