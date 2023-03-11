@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&display=swap');*/
+@font-face 
+{
+  font-family: 'Metropolis1920';
+  src: url('../../public/fonts/Metropolis1920-Regular.otf') format('otf');
+  src: url('../../public/fonts/Metropolis1920-Regular.ttf') format('ttf');
+ }
 
 :root
 {
@@ -32,9 +38,11 @@ li a
 {
     display: block;
     color: var(--bleu);
-    font-size: 1.7em;
-    font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 1px var(--bleuFoncé);
+    font-size: 2.5em;
+    font-weight: bold;
+    /*font-family: 'Anton', sans-serif;*/
+    font-family: 'Metropolis' sans-serif;
+    -webkit-text-stroke: 1px var(--white);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
