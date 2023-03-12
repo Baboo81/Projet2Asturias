@@ -1,8 +1,8 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&display=swap');*/
 @font-face 
 {
-  font-family: 'Aromaticdreamdemo-rpjyl';
-  src: url('../../public/fonts/Aromatic/aromaticdreamdemo-rpjyl.otf') format('otf');
+  font-family: 'Kamada';
+  src: url('../../public/fonts/Kamada/kamada.otf') format('otf');
   
  }
 
@@ -27,7 +27,7 @@ ul
     flex-direction: row;
     justify-content: space-evenly;
 }
-  
+
 li 
 {
     padding-top: 2%;
@@ -37,12 +37,12 @@ li
 li a 
 {
     display: block;
-    color: var(--bleu);
+    color: var(--turquoise);
     font-size: 2.5em;
     font-weight: bold;
     /*font-family: 'Anton', sans-serif;*/
-    font-family: 'aromaticdreamdemo-rpjyl';
-    -webkit-text-stroke: 1px var(--white);
+    font-family: 'Kamada';
+    -webkit-text-stroke: 1px var(--bleuSombre);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
