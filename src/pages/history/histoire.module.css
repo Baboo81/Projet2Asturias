@@ -24,6 +24,12 @@ section
     width: 45vw;
 }
 
+p::first-letter
+{
+    color: var(--turquoise);
+    font-size: 180%;
+}
+
 p
 {
 
@@ -31,6 +37,7 @@ p
     font-size: 1.5em;
     font-weight: bold;
     color: var(--turquoise);
+    text-align:justify;
     padding: 1%;
     padding-left: 5%;
     padding-right: 5%;
