@@ -1,9 +1,9 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&display=swap');*/
 @font-face 
 {
-  font-family: 'Metropolis1920';
-  src: url('../../public/fonts/Metropolis/Metropolis1920-Regular.otf') format('otf');
-  src: url('../../public/fonts/Metropolis/Metropolis1920-Regular.ttf') format('ttf');
+  font-family: 'Aromaticdreamdemo-rpjyl';
+  src: url('../../public/fonts/Aromatic/aromaticdreamdemo-rpjyl.otf') format('otf');
+  
  }
 
 :root
@@ -41,7 +41,7 @@ li a
     font-size: 2.5em;
     font-weight: bold;
     /*font-family: 'Anton', sans-serif;*/
-    font-family: 'Metropolis' sans-serif;
+    font-family: 'aromaticdreamdemo-rpjyl';
     -webkit-text-stroke: 1px var(--white);
     text-align: center;
     padding: 14px 16px;
@@ -67,13 +67,13 @@ li a
 
 .menu li:hover::after
 {
-  width: 6%;
+  width: 10%;
   height: 2px;
   background-color: var(--bleu);
 }
 .menu li:hover::before
 {
-  width: 6%;
+  width: 10%;
   height: 2px;
   background-color: var(--turquoise);
 }
