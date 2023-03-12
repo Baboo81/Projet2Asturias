@@ -2,8 +2,8 @@
 @font-face 
 {
   font-family: 'Metropolis1920';
-  src: url('../../public/fonts/Metropolis1920-Regular.otf') format('otf');
-  src: url('../../public/fonts/Metropolis1920-Regular.ttf') format('ttf');
+  src: url('../../public/fonts/Metropolis/Metropolis1920-Regular.otf') format('otf');
+  src: url('../../public/fonts/Metropolis/Metropolis1920-Regular.ttf') format('ttf');
  }
 
 :root
